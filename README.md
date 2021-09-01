@@ -88,7 +88,15 @@ See [Data](/data/) for details.
 
 ## Tips
 
+*TBD*
+
 ## Result
+
+The following is a detailed list of the results of the analysis in this study.
+The purpose of publishing the details of the results is to include those that could not be included in the paper due to space limitations.
+
+See [Result](/result/) for details.
+
 
 ## Publication
 
