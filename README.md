@@ -34,15 +34,18 @@ The libraries provided by Android and Java (java.security, javax.crypto, android
 
 As a result of our analysis and research, cryptographic libraries can be divided into three categories
 
-- Cryptographic libraries: libraries that are developed and provided for the purpose of providing cryptographic technology.
-- Cryptographic function-providing libraries: libraries that contain classes and methods for cryptographic functions to support the original purpose
-- Proprietary libraries: libraries developed for in-house applications
+- *Cryptographic libraries*: libraries that are developed and provided for the purpose of providing cryptographic technology.
+- *Cryptographic function-providing libraries*: libraries that contain classes and methods for cryptographic functions to support the original purpose
+- *Proprietary libraries*: libraries developed for in-house applications
 
 ### Cryptographic libraries
 
 |Library Name| Package Name| Description | URL |
 ----|----|----|----
 Spongy Castle | org.spongycastle | The Android platform uses a cut-down version of BouncyCastle (without some features) for the JCE cryptographic provider, so you can't use all the features of BouncyCastle. A stock library of BouncyCastle with small changes to make it work on Android. | https://rtyley.github.io/spongycastle/ |
+Bouncy Castle | org.bouncycastle | The Android platform has adopted it as an encryption provider without some of its functions.
+For some reason, some apps seem to be calling BouncyCastle directly. | https://www.bouncycastle.org/ |
+
 
 
 ### Cryptographic function-providing libraries
