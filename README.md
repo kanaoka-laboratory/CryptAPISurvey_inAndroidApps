@@ -12,6 +12,10 @@ In this page, we introduce the results of our survey, and the data and tools rel
 
 ## AndroZoo
 
+Androzoo is a service that collects android applications and provides them.
+As of September 1, 2021, it is reported to hold 16,370,174 APK files.
+In this study, we use the data from Androzoo to analyze the applications.
+
 See [AndroZoo](/androzoo/) for details.
 
 ## Tools
