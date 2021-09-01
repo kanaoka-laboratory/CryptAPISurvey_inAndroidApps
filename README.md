@@ -53,21 +53,22 @@ As a result of our analysis and research, cryptographic libraries can be divided
 ### Cryptographic function-providing libraries
 |Library Name| Package Name| Description | URL |
 ----|----|----|----
-|Amazon AWS S3 Client|com.amazonaws.services ||https://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/index.html?com/amazonaws/services/s3/AmazonS3Client.html|
-|okhttp|okhttp||https://square.github.io/okhttp/|
-|AWS Key Management Service (AWS KMS)|com.amazonaws.services.kms||https://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/index.html?com/amazonaws/services/kms/package-summary.html|
-|ExoPlayer|com.google.android.exoplayer2||https://developer.android.com/guide/topics/media/exoplayer|
-|Apache HTTP Client|org.apache.http.auth, org.apache.hc.client5.http.auth||https://hc.apache.org/|
-|greenDAO|org.greenrobot.greendao.database||https://github.com/greenrobot/greenDAO|
-|Visual Studio App Center|com.microsoft.appcenter.utils.crypto||https://github.com/microsoft/appcenter-sdk-android|
-|Signal|org.thoughtcrime.securesms||https://github.com/signalapp/Signal-Android|
-|Realm|io.realm||https://realm.io/
-|Zip4j|net.lingala.zip4j.crypto||https://github.com/srikanth-lingala/zip4j
-|Java MP4 Parser|org.mp4parse, com.mp4parser||https://github.com/sannies/mp4parser|
-|kObjects|org.kobjects.crypt||https://kobjects.org/|
-|Apache Common Codes|org.apache.commons.codec.digest||https://commons.apache.org/proper/commons-codec/|
-|Igexin|com.igexin.push.util|||
-|iText|com.itextpdf.text.pdf||https://itextpdf.com/|
+|Amazon AWS S3 Client|com.amazonaws.services |Client library for AWS S3, with several Crypto-related classes.|https://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/index.html?com/amazonaws/services/s3/AmazonS3Client.html|
+|okhttp|okhttp|HTTP library, where cryptography is used by TLS-related classes.
+Many applications have been found to include okhttp in their own application packages.|https://square.github.io/okhttp/|
+|AWS Key Management Service (AWS KMS)|com.amazonaws.services.kms|A library for AWS key management. Allows key management and encryption.|https://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/index.html?com/amazonaws/services/kms/package-summary.html|
+|ExoPlayer|com.google.android.exoplayer2|Third-party audio and video libraries for Android. It has cryptography-related classes.|https://developer.android.com/guide/topics/media/exoplayer|
+|Apache HTTP Client|org.apache.http.auth, org.apache.hc.client5.http.auth|Apache's HTTP client library, with NTRM-related methods for invoking cryptography.|https://hc.apache.org/|
+|greenDAO|org.greenrobot.greendao.database|Implementation of an object-oriented DB. Encryption features are provided.|https://github.com/greenrobot/greenDAO|
+|Visual Studio App Center|com.microsoft.appcenter.utils.crypto|A library that supports the creation of apps for Android, iOS, macOS, Windows, etc. There are cryptography-related packages.|https://github.com/microsoft/appcenter-sdk-android|
+|Signal|org.thoughtcrime.securesms|The database-related part of Signal provides functions related to SQL encryption.|https://github.com/signalapp/Signal-Android|
+|Realm|io.realm|Database used for mobile systems, with Android library. The database (Realm file) can be encrypted.|https://realm.io/
+|Zip4j|net.lingala.zip4j.crypto|Library for ZIP. There is an encryption part.|https://github.com/srikanth-lingala/zip4j
+|Java MP4 Parser|org.mp4parse, com.mp4parser|MP4 library for Java. Includes methods for encryption and decryption.|https://github.com/sannies/mp4parser|
+|kObjects|org.kobjects.crypt|A collection of libraries for embedded and mobile Java, including the Crypt package in Utilities.|https://kobjects.org/|
+|Apache Common Codes|org.apache.commons.codec.digest|Common Encoders/Decoders, such as Base64 and Hex libraries. There is a library of message digests (hash functions).|https://commons.apache.org/proper/commons-codec/|
+|Igexin|com.igexin.push.util|Android's library for ads. But news in 2017 that spyware has been embedded in it.||
+|iText|com.itextpdf.text.pdf|A library for working with PDF. Multi-functional PDF engine. Includes classes for PDF encryption.|https://itextpdf.com/|
 
 ### Proprietary libraries
 
@@ -86,3 +87,6 @@ Akira Kanaoka, Mamoru Abe, "***A Large-Scale Survey of Cryptographic Library Usa
 
 Akira Kanaoka (Toho University)
 akira.kanaoka@is.sci.toho-u.ac.jp
+
+## Acknowledgement
+This work was supported by JSPS KAKENHI Grant Number JP19K11972, JP19H04111, and JP19H04101.
