@@ -30,7 +30,7 @@ The program used for the analysis in this study will be available (Sep 1, 2021).
 ## Crypt API List
 
 This is a list of third-party cryptographic libraries that are frequently used in Android applications, as revealed by the analysis in this study.
-The libraries provided by Android and Java (java.security, javax.crypto, andro) are not included here.
+The libraries provided by Android and Java (java.security, javax.crypto, androidx.security.crypto) are not included here.
 
 As a result of our analysis and research, cryptographic libraries can be divided into three categories
 
@@ -39,6 +39,11 @@ As a result of our analysis and research, cryptographic libraries can be divided
 - Proprietary libraries: libraries developed for in-house applications
 
 ### Cryptographic libraries
+
+|Library Name| Package Name| Description | URL |
+----|----|----|----
+Spongy Castle | org.spongycastle | The Android platform uses a cut-down version of BouncyCastle (without some features) for the JCE cryptographic provider, so you can't use all the features of BouncyCastle. A stock library of BouncyCastle with small changes to make it work on Android. | https://rtyley.github.io/spongycastle/ |
+
 
 ### Cryptographic function-providing libraries
 
