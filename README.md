@@ -71,7 +71,14 @@ Many applications have been found to include okhttp in their own application pac
 |iText|com.itextpdf.text.pdf|A library for working with PDF. Multi-functional PDF engine. Includes classes for PDF encryption.|https://itextpdf.com/|
 
 ### Proprietary libraries
-
+|Library Name| Package Name| Description | URL |
+----|----|----|----
+| &lt;unknown&gt; | net.idt.um.android.api.com.config |  Details unknown. Doesn't come up directly in the search.
+Applications called net.idt.um.android.bossrevapp comes up. Possibly a library made by a development company. ||
+| Tencent Open Platform | com.tencent.utils, com.tencent.open.utils |It may be a framework for Tencent's development support. There seems to be an implementation of the encryption part, but we couldn't find it even after much searching. Rather than being completely open, it may be something you can get by applying.||
+| Tencent Cloud: Tencent Push Notification Service | com.tencent.android.tpush.encrypt | There is an API for implementing message push as Tencent's SDK, but there's no information on the specifics. ||
+| Alipay wireless SDK | com.alipay.sdk.encrypt | Alipay's SDK, but it doesn't seem to be available to the public. There is a decompiled version on Github. https://github.com/XClouded/alipay ||
+| &lt;unknown&gt; | com.baidu.location | Baidu's location library? Encryption seems to be one of the methods there. | |Cutie Garden| com.cutie.merge.garden | Android application (game). The method has decrypt ||
 
 ## Data
 
