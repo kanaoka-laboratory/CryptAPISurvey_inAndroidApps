@@ -20,6 +20,9 @@ See [AndroZoo](/androzoo/) for details.
 
 ## Tools
 
+In this study, we convert APK files of Android applications to Smali files and statically analyze the contents of the Smali files.
+For the conversion to Smali files, we used [apktool](https://ibotpeaches.github.io/Apktool/).
+
 ## Programs
 
 ## Crypt API List
