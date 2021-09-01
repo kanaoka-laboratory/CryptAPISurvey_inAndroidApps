@@ -25,7 +25,25 @@ For the conversion to Smali files, we used [apktool](https://ibotpeaches.github.
 
 ## Programs
 
+The program used for the analysis in this study will be available (Sep 1, 2021).
+
 ## Crypt API List
+
+This is a list of third-party cryptographic libraries that are frequently used in Android applications, as revealed by the analysis in this study.
+The libraries provided by Android and Java (java.security, javax.crypto, andro) are not included here.
+
+As a result of our analysis and research, cryptographic libraries can be divided into three categories
+
+- Cryptographic libraries: libraries that are developed and provided for the purpose of providing cryptographic technology.
+- Cryptographic function-providing libraries: libraries that contain classes and methods for cryptographic functions to support the original purpose
+- Proprietary libraries: libraries developed for in-house applications
+
+### Cryptographic libraries
+
+### Cryptographic function-providing libraries
+
+### Proprietary libraries
+
 
 ## Data
 
