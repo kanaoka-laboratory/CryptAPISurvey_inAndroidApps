@@ -81,6 +81,11 @@ Many applications have been found to include okhttp in their own application pac
 
 ## Data
 
+In this section, data related to this study are posted.
+The purpose of publishing the data is to include those that could not be included in the paper due to space limitations and to ensure the reproducibility of the analysis results.
+
+See [Data](/data/) for details.
+
 ## Tips
 
 ## Result
