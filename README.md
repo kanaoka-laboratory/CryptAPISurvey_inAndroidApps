@@ -51,6 +51,23 @@ As a result of our analysis and research, cryptographic libraries can be divided
 
 
 ### Cryptographic function-providing libraries
+|Library Name| Package Name| Description | URL |
+----|----|----|----
+|Amazon AWS S3 Client|com.amazonaws.services |||
+|okhttp|okhttp|||
+|AWS Key Management Service (AWS KMS)|com.amazonaws.services.kms|||
+|ExoPlayer|com.google.android.exoplayer2|||
+|Apache HTTP Client|org.apache.http.auth, org.apache.hc.client5.http.auth|||
+|greenDAO|org.greenrobot.greendao.database|||
+|Visual Studio App Center|com.microsoft.appcenter.utils.crypto|||
+|Signal|org.thoughtcrime.securesms|||
+|Realm|io.realm|||
+|Zip4j|net.lingala.zip4j.crypto|||
+|Java MP4 Parser|org.mp4parse, com.mp4parser|||
+|kObjects|org.kobjects.crypt|||
+|Apache Common Codes|org.apache.commons.codec.digest|||
+|Igexin|com.igexin.push.util|||
+|iText|com.itextpdf.text.pdf|||
 
 ### Proprietary libraries
 
@@ -64,3 +81,8 @@ As a result of our analysis and research, cryptographic libraries can be divided
 ## Publication
 
 Akira Kanaoka, Mamoru Abe, "***A Large-Scale Survey of Cryptographic Library Usage in Android Applications***", Computer Security Symposium 2021, 2021 (to appear) (published in Japanese)
+
+## Contact
+
+Akira Kanaoka (Toho University)
+akira.kanaoka@is.sci.toho-u.ac.jp
