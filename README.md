@@ -1,8 +1,5 @@
 Survey of cryptographic APIs in Android
 ====
-
-Overview
-
 日本語版READMEは[こちら](/README-jp.md)
 
 Usable security research targeting software developers is becoming more and more active.
@@ -28,3 +25,7 @@ See [AndroZoo](/androzoo/) for details.
 ## Tips
 
 ## Result
+
+## Publication
+
+Akira Kanaoka, Mamoru Abe, "*A Large-Scale Survey of Cryptographic Library Usage in Android Applications*", Computer Security Symposium 2021, 2021 (to appear) (published in Japanese)
