@@ -53,21 +53,21 @@ As a result of our analysis and research, cryptographic libraries can be divided
 ### Cryptographic function-providing libraries
 |Library Name| Package Name| Description | URL |
 ----|----|----|----
-|Amazon AWS S3 Client|com.amazonaws.services |||
-|okhttp|okhttp|||
-|AWS Key Management Service (AWS KMS)|com.amazonaws.services.kms|||
-|ExoPlayer|com.google.android.exoplayer2|||
-|Apache HTTP Client|org.apache.http.auth, org.apache.hc.client5.http.auth|||
-|greenDAO|org.greenrobot.greendao.database|||
-|Visual Studio App Center|com.microsoft.appcenter.utils.crypto|||
-|Signal|org.thoughtcrime.securesms|||
-|Realm|io.realm|||
-|Zip4j|net.lingala.zip4j.crypto|||
-|Java MP4 Parser|org.mp4parse, com.mp4parser|||
-|kObjects|org.kobjects.crypt|||
-|Apache Common Codes|org.apache.commons.codec.digest|||
+|Amazon AWS S3 Client|com.amazonaws.services ||https://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/index.html?com/amazonaws/services/s3/AmazonS3Client.html|
+|okhttp|okhttp||https://square.github.io/okhttp/|
+|AWS Key Management Service (AWS KMS)|com.amazonaws.services.kms||https://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/index.html?com/amazonaws/services/kms/package-summary.html|
+|ExoPlayer|com.google.android.exoplayer2||https://developer.android.com/guide/topics/media/exoplayer|
+|Apache HTTP Client|org.apache.http.auth, org.apache.hc.client5.http.auth||https://hc.apache.org/|
+|greenDAO|org.greenrobot.greendao.database||https://github.com/greenrobot/greenDAO|
+|Visual Studio App Center|com.microsoft.appcenter.utils.crypto||https://github.com/microsoft/appcenter-sdk-android|
+|Signal|org.thoughtcrime.securesms||https://github.com/signalapp/Signal-Android|
+|Realm|io.realm||https://realm.io/
+|Zip4j|net.lingala.zip4j.crypto||https://github.com/srikanth-lingala/zip4j
+|Java MP4 Parser|org.mp4parse, com.mp4parser||https://github.com/sannies/mp4parser|
+|kObjects|org.kobjects.crypt||https://kobjects.org/|
+|Apache Common Codes|org.apache.commons.codec.digest||https://commons.apache.org/proper/commons-codec/|
 |Igexin|com.igexin.push.util|||
-|iText|com.itextpdf.text.pdf|||
+|iText|com.itextpdf.text.pdf||https://itextpdf.com/|
 
 ### Proprietary libraries
 
