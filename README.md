@@ -45,7 +45,9 @@ As a result of our analysis and research, cryptographic libraries can be divided
 | Spongy Castle | org.spongycastle | The Android platform uses a cut-down version of BouncyCastle (without some features) for the JCE cryptographic provider, so you can't use all the features of BouncyCastle. A stock library of BouncyCastle with small changes to make it work on Android. | https://rtyley.github.io/spongycastle/ |
 | Bouncy Castle | org.bouncycastle | The Android platform has adopted it as an encryption provider without some of its functions. For some reason, some apps seem to be calling BouncyCastle directly. | https://www.bouncycastle.org/ |
 | SQL Cipher | net.sqlcipher | An open source SQL encryption library, also available for Android. | https://www.zetetic.net/sqlcipher/sqlcipher-for-android/ |
-
+| JOSE: Javascript Object Signing and Encryption | com.nimbusds.jose | TOSE is a standard for encrypting and digitally signing JSON data. There are libraries available for its data representation and purposes. | https://connect2id.com/products/nimbus-jose-jwt |
+| Conceal | com.facebook.crypto.cipher | Facebook's cryptography library But it's not maintained anymore (supposedly). | https://github.com/facebookarchive/conceal |
+| Conscrypt | org.conscrypt | One of the Java Security Providers. It is developed by Google. | https://github.com/google/conscrypt | 
 
 
 ### Cryptographic function-providing libraries
