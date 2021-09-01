@@ -42,8 +42,9 @@ As a result of our analysis and research, cryptographic libraries can be divided
 
 |Library Name| Package Name| Description | URL |
 ----|----|----|----
-Spongy Castle | org.spongycastle | The Android platform uses a cut-down version of BouncyCastle (without some features) for the JCE cryptographic provider, so you can't use all the features of BouncyCastle. A stock library of BouncyCastle with small changes to make it work on Android. | https://rtyley.github.io/spongycastle/ |
-Bouncy Castle | org.bouncycastle | The Android platform has adopted it as an encryption provider without some of its functions. For some reason, some apps seem to be calling BouncyCastle directly. | https://www.bouncycastle.org/ |
+| Spongy Castle | org.spongycastle | The Android platform uses a cut-down version of BouncyCastle (without some features) for the JCE cryptographic provider, so you can't use all the features of BouncyCastle. A stock library of BouncyCastle with small changes to make it work on Android. | https://rtyley.github.io/spongycastle/ |
+| Bouncy Castle | org.bouncycastle | The Android platform has adopted it as an encryption provider without some of its functions. For some reason, some apps seem to be calling BouncyCastle directly. | https://www.bouncycastle.org/ |
+| SQL Cipher | net.sqlcipher | An open source SQL encryption library, also available for Android. | https://www.zetetic.net/sqlcipher/sqlcipher-for-android/ |
 
 
 
