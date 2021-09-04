@@ -1,0 +1,91 @@
+1224474	80.29%	javasec	0	java.security		
+966326	63.37%	javaxcrypto	0	javax.crypto		
+667743	43.79%	javaxssl	0	javax.net.ssl		
+2603	0.17%	androidsec	1	android.security	KeyPair	
+1	0.00%	androidsec	1	android.security	KeyChain	
+399	0.03%	androidsec	1	android.security	KeyStore	
+2257	0.15%	androidxsec	0	androidx.security.crypto		
+62098	4.07%	spongy	0	org.spongycastle		
+86128	5.65%	bouncy	0	org.bouncycastle		
+20798	1.36%	sqlcipher	0	net.sqlcipher		
+25463	1.67%	jose	0	com.nimbusds.jose		
+7941	0.52%	conceal	0	com.facebook.crypto		
+461	0.03%	conceal	0	com.facebook.cipher		
+27487	1.80%	conscrypt	0	org.conscrypt		
+11561	0.76%	awss3	0	com.amazonaws.services.s3.internal.crypto		
+11907	0.78%	awss3	1	com.amazonaws.services	Encryption	
+10	0.00%	awss3	1	com.amazonaws.services	Decryption	
+8670	0.57%	awss3	1	com.amazonaws.services	Cipher	
+0	0.00%	awss3	1	com.amazonaws.services	HashAlgorithm	
+248524	16.30%	okhttp	1	okhttp3	CipherSuite	
+226676	14.86%	okhttp	1	okhttp3	Handshake	
+223569	14.66%	okhttp	1	okhttp3	ConnectionSpec	
+52978	3.47%	okhttp	1	com.squareup.okhttp	CipherSuite	
+53689	3.52%	okhttp	1	com.squareup.okhttp	Handshake	
+49891	3.27%	okhttp	1	com.squareup.okhttp	ConnectionSpec	
+1690	0.11%	okhttp	1	thrid.okhttp	CipherSuite	
+1592	0.10%	okhttp	1	thrid.okhttp	Handshake	
+1585	0.10%	okhttp	1	thrid.okhttp	ConnectionSpec	
+13318	0.87%	okhttp	1	io.grpc.okhttp.internal	CipherSuite	
+30	0.00%	okhttp	1	io.grpc.okhttp.internal	Handshake	
+12191	0.80%	okhttp	1	io.grpc.okhttp.internal	ConnectionSpec	
+186017	12.20%	okhttp	2	okio	ByteString	sha1
+218967	14.36%	okhttp	2	okio	ByteString	sha256
+278	0.02%	okhttp	2	okio	ByteString	sha512
+183	0.01%	okhttp	1	okio	CipherSink	
+184	0.01%	okhttp	1	okio	CipherSource	
+577645	37.88%	androhard	1	hardware.fingerprint	FingerprintManager$CryptoObject	
+284564	18.66%	androhard	1	hardware.fingerprint	FingerprintManagerCompatApi23$CryptoObject	
+565931	37.11%	androhard	1	hardware.fingerprint	FingerprintManagerCompat$CryptoObject	
+198269	13.00%	httpclient	0	org.apache.http.conn.ssl		
+30	0.00%	httpclient	0	org.apache.hc.client5.http.ssl		
+19659	1.29%	httpclient	1	org.apache.http.impl.auth	NTLMEngineImpl$CipherGen	
+19	0.00%	httpclient	1	org.apache.hc.client5.http.impl.auth	NTLMEngineImpl$CipherGen	
+17390	1.14%	httpclient	1	cz.msebera.android.httpclient.impl.auth	NTLMEngineImpl$CipherGen	
+6314	0.41%	httpclient	2	org.apache.commons.httpclient.auth	NTLM	encrypt([B[B)[B
+8342	0.55%	awskms	0	com.amazonaws.services.kms		
+70421	4.62%	exoplayer	0	com.google.android.exoplayer2.upstream.crypto		
+47113	3.09%	exoplayer	2	com.google.android.exoplayer2.source.hls	HlsChunkSource	setEncryptionData(Landroid/net/Uri;Ljava/lang/String;[B)V
+78880	5.17%	exoplayer	2	com.google.android.exoplayer2.decoder	DecoderInputBuffer	isEncrypted()Z
+63	0.00%	exoplayer	2	com.google.android.exoplayer2.extractor.mp4	FragmentedMp4Extractor	encryption
+74575	4.89%	exoplayer	2	com.google.android.exoplayer2.extractor.mp4	TrackFragment	fillEncryptionData(Lcom/google/android/exoplayer2/extractor/ExtractorInput;)V
+50299	3.30%	exoplayer	2	com.google.android.exoplayer2.extractor.mp4	TrackEncryptionBox	<init>(ZLjava/lang/String;I[BII[B)V
+22463	1.47%	exoplayer	2	com.google.android.exoplayer2.extractor.mp4	TrackFragment	sampleHasSubsampleEncryptionTable(I)Z
+45054	2.95%	exoplayer	2	com.google.android.exoplayer2.upstream.cache	CachedContentIndex	getCipher()Ljavax/crypto/Cipher;
+46644	3.06%	exoplayer	2	com.google.android.exoplayer2.source.hls	HlsChunkSource	clearEncryptionData()V
+45401	2.98%	exoplayer	2	com.google.android.exoplayer2.source	SampleQueue	readEncryptionData(Lcom/google/android/exoplayer2/decoder/DecoderInputBuffer;Lcom/google/android/exoplayer2/source/SampleMetadataQueue$SampleExtrasHolder;)V
+46520	3.05%	exoplayer	2	com.google.android.exoplayer2.source.hls	HlsChunkSource	newEncryptionKeyChunk(Landroid/net/Uri;Ljava/lang/String;IILjava/lang/Object;)Lcom/google/android/exoplayer2/source/hls/HlsChunkSource$EncryptionKeyChunk;
+53074	3.48%	exoplayer	2	com.google.android.exoplayer2.source.hls	HlsChunkSource$EncryptionKeyChunk	getResult()[B
+5002	0.33%	greendao	1	org.greenrobot.greendao.database	DatabaseOpenHelper$EncryptedHelper	
+10861	0.71%	vsapp	0	com.microsoft.appcenter.utils.crypto		
+903	0.06%	signal	0	org.thoughtcrime.securesms		
+13833	0.91%	realm	2	io.realm	RealmConfiguration	getEncryptionKey()[B
+12772	0.84%	realm	2	io.realm	BaseRealm	writeEncryptedCopyTo(Ljava/io/File;[B)V
+6439	0.42%	zip4j	0	net.lingala.zip4j.crypto		
+57	0.00%	mp4parser	0	mp4parser.muxer.tracks.encryption		
+9256	0.61%	mp4parser	1	mp4parser	EncryptionBox	
+16853	1.11%	kobjects	0	org.kobjects.crypt		
+62578	4.10%	apachecc	0	org.apache.commons.codec.digest		
+3707	0.24%	lgexin	1	com.igexin.push.util	EncryptUtils	
+4330	0.28%	itext	0	com.itextpdf.text.pdf.crypto		
+4554	0.30%	itext	1	com.itextpdf.text.pdf	PdfEncryption	
+3384	0.22%	itext	1	com.itextpdf.text.pdf	PdfEncryptor	
+13	0.00%	netidt	2	net.idt.um.android.api.com.config	AppKeyResponsesLong	decryptLongs(JJ)Ljava/lang/Long;
+13	0.00%	netidt	2	net.idt.um.android.api.com.config	TestAppKeyResponses	decrypt(Ljava/lang/String;)Ljava/lang/String;
+9617	0.63%	tencentop	2	com.tencent.open.utils	Util	encrypt(Ljava/lang/String;)Ljava/lang/String;
+2836	0.19%	tencentop	2	com.tencent.utils	Util	encrypt(Ljava/lang/String;)Ljava/lang/String;
+3486	0.23%	tencentcloud	0	com.tencent.android.tpush.encrypt		
+13507	0.89%	alipay	0	com.alipay.sdk.encrypt		
+4532	0.30%	baidu	2	com.baidu.location	Jni	coorEncrypt(DDLjava/lang/String;)[D
+4	0.00%	cutie	2	com.cutie.merge.garden	StringFog	decrypt(Ljava/lang/String;)Ljava/lang/String;
+1208	0.08%	androidxsec	1	androidx.security.crypto	MasterKey	
+1325	0.09%	androidxsec	1	androidx.security.crypto	EncryptedFile	
+69	0.00%	javaxcrypto	1	javax.crypto	KeyGenerator	
+963682	63.19%	javaxcrypto	1	javax.crypto	Cipher	
+40567	2.66%	javasec	1	java.security	PrivateKey	
+702922	46.09%	javasec	1	java.security	Signature	
+0	0.00%	javasec	1	java.security	Publickey	
+18	0.00%	javasec	1	java.security	KeyPair	
+1191530	78.13%	javasec	1	java.security	MessageDigest	
+0	0.00%	javasec	1	java.security	SecureRandom	
+46	0.00%	javaxcrypto	1	javax.crypto	Mac	
