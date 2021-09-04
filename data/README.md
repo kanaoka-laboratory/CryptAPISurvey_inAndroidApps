@@ -10,6 +10,8 @@ Therefore, the filter rule contains a flag to indicate whether it is a cryptogra
 
 A single filter rule is separated by tabs. Each element is described in the following table.
 
+| Element | Description |
+----|----
 | 1st element | Type of rule. 0: package name, 1: package and class name, 2: package, class, method and argment type |
 
 
