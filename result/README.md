@@ -32,8 +32,23 @@ Analisys Result
 |Igexin | 3707 | 0.24% |
 |iText  |  12268  |  0.80%|
 ||||
-|&lt;unknown&gt; net.idt.um.android.api.com.config| 26 | 0.00%|
+| | lt;unknown | gt; net.idt.um.android.api.com.config| 26 | 0.00%|
 |Tencent Open Platform  |  12453  |  0.82%|
 |Tencent Cloud | 3486 | 0.23%
 |Alipay wireless SDK  |  13507  |  0.89%|
-|&lt;unknown&gt; com.baidu.location |4532 | 0.30%|
+| lt;unknown gt; com.baidu.location |4532 | 0.30%|
+
+## Usage of packages and classes surveyed for cryptographic functions
+| Crypto Function | Package | Class | Num of Apps ||
+----|----|----|----|----
+| Symmetric Key | androidx.security.crypto  |  MasterKey  |  1208  |  0.08% |
+| Symmetric Key |  androidx.security.crypto  |  EncryptedFile  |  1325  |  0.09% |
+| Symmetric Key |  javax.crypto  |  KeyGenerator  |  69  |  0.00% |
+| Symmetric Key |  javax.crypto  |  Cipher  |  963682  |  63.19% |
+| Public Key |  java.security  |  PrivateKey  |  40567  |  2.66% |
+| Public Key |  java.security  |  Signature  |  702922  |  46.09% |
+| Public Key |  java.security  |  Publickey  |  0  |  0.00% |
+| Public Key |  java.security  |  KeyPair  |  18  |  0.00% |
+| Message Digest |  java.security  |  MessageDigest  |  1191530  |  78.13% |
+| Random  |  java.security  |  SecureRandom  |  0  |  0.00% |
+| Message Authentication  |  javax.crypto  |  Mac  |  46  |  0.00% \
