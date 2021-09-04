@@ -32,11 +32,11 @@ Analisys Result
 |Igexin | 3707 | 0.24% |
 |iText  |  12268  |  0.80%|
 ||||
-| lt;unknown gt; net.idt.um.android.api.com.config| 26 | 0.00%|
+| &lt;unknown &gt; net.idt.um.android.api.com.config| 26 | 0.00%|
 |Tencent Open Platform  |  12453  |  0.82%|
 |Tencent Cloud | 3486 | 0.23%
 |Alipay wireless SDK  |  13507  |  0.89%|
-| lt;unknown gt; com.baidu.location |4532 | 0.30%|
+| &lt;unknown &gt; com.baidu.location |4532 | 0.30%|
 
 ## Usage of packages and classes surveyed for cryptographic functions
 | Crypto Function | Package | Class | Num of Apps ||
