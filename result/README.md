@@ -3,7 +3,7 @@ Analisys Result
 
 ## Usage of cryptographic libraries and cryptographic usage classes of third-party libraries
 | Library | Num of Apps | |
-----|----|----
+----|---:|---:
 |java.security  |  1224474  |  80.29%|
 |javax.crypto  |  966326  |  63.37%|
 |javax.net.ssl  |  667743  |  43.79%|
@@ -40,7 +40,7 @@ Analisys Result
 
 ## Usage of packages and classes surveyed for cryptographic functions
 | Crypto Function | Package | Class | Num of Apps ||
-----|----|----|----|----
+----|----|----|---:|---:
 | Symmetric Key | androidx.security.crypto  |  MasterKey  |  1208  |  0.08% |
 | Symmetric Key |  androidx.security.crypto  |  EncryptedFile  |  1325  |  0.09% |
 | Symmetric Key |  javax.crypto  |  KeyGenerator  |  69  |  0.00% |
