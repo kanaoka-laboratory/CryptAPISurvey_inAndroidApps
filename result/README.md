@@ -38,6 +38,10 @@ Analisys Result
 |Alipay wireless SDK  |  13507  |  0.89%|
 | &lt;unknown &gt; com.baidu.location |4532 | 0.30%|
 
+This data is a count of how many applications for 1587956 applications each filter rule appeared in based on the filter data in fil_forApps.tsv.
+
+Detailed data can be found in cryptlib_usage_detail.tsv in the [Data](/data/) folder.
+
 ## Usage of packages and classes surveyed for cryptographic functions
 | Crypto Function | Package | Class | Num of Apps ||
 ----|----|----|---:|---:
@@ -51,4 +55,5 @@ Analisys Result
 | Public Key |  java.security  |  KeyPair  |  18  |  0.00% |
 | Message Digest |  java.security  |  MessageDigest  |  1191530  |  78.13% |
 | Random  |  java.security  |  SecureRandom  |  0  |  0.00% |
-| Message Authentication  |  javax.crypto  |  Mac  |  46  |  0.00% \
+| Message Authentication  |  javax.crypto  |  Mac  |  46  |  0.00% |
+
