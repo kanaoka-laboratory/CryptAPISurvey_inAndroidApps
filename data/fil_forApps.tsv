@@ -1,0 +1,91 @@
+javasec	0	java.security		
+javaxcrypto	0	javax.crypto		
+javaxssl	0	javax.net.ssl		
+androidsec	1	android.security	KeyPair	
+androidsec	1	android.security	KeyChain	
+androidsec	1	android.security	KeyStore	
+androidxsec	0	androidx.security.crypto		
+spongy	0	org.spongycastle		
+bouncy	0	org.bouncycastle		
+sqlcipher	0	net.sqlcipher		
+jose	0	com.nimbusds.jose		
+conceal	0	com.facebook.crypto		
+conceal	0	com.facebook.cipher		
+conscrypt	0	org.conscrypt		
+awss3	0	com.amazonaws.services.s3.internal.crypto		
+awss3	1	com.amazonaws.services	Encryption	
+awss3	1	com.amazonaws.services	Decryption	
+awss3	1	com.amazonaws.services	Cipher	
+awss3	1	com.amazonaws.services	HashAlgorithm	
+okhttp	1	okhttp3	CipherSuite	
+okhttp	1	okhttp3	Handshake	
+okhttp	1	okhttp3	ConnectionSpec	
+okhttp	1	com.squareup.okhttp	CipherSuite	
+okhttp	1	com.squareup.okhttp	Handshake	
+okhttp	1	com.squareup.okhttp	ConnectionSpec	
+okhttp	1	thrid.okhttp	CipherSuite	
+okhttp	1	thrid.okhttp	Handshake	
+okhttp	1	thrid.okhttp	ConnectionSpec	
+okhttp	1	io.grpc.okhttp.internal	CipherSuite	
+okhttp	1	io.grpc.okhttp.internal	Handshake	
+okhttp	1	io.grpc.okhttp.internal	ConnectionSpec	
+okhttp	2	okio	ByteString	sha1
+okhttp	2	okio	ByteString	sha256
+okhttp	2	okio	ByteString	sha512
+okhttp	1	okio	CipherSink	
+okhttp	1	okio	CipherSource	
+androhard	1	hardware.fingerprint	FingerprintManager$CryptoObject	
+androhard	1	hardware.fingerprint	FingerprintManagerCompatApi23$CryptoObject	
+androhard	1	hardware.fingerprint	FingerprintManagerCompat$CryptoObject	
+httpclient	0	org.apache.http.conn.ssl		
+httpclient	0	org.apache.hc.client5.http.ssl		
+httpclient	1	org.apache.http.impl.auth	NTLMEngineImpl$CipherGen	
+httpclient	1	org.apache.hc.client5.http.impl.auth	NTLMEngineImpl$CipherGen	
+httpclient	1	cz.msebera.android.httpclient.impl.auth	NTLMEngineImpl$CipherGen	
+httpclient	2	org.apache.commons.httpclient.auth	NTLM	encrypt([B[B)[B
+awskms	0	com.amazonaws.services.kms		
+exoplayer	0	com.google.android.exoplayer2.upstream.crypto		
+exoplayer	2	com.google.android.exoplayer2.source.hls	HlsChunkSource	setEncryptionData(Landroid/net/Uri;Ljava/lang/String;[B)V
+exoplayer	2	com.google.android.exoplayer2.decoder	DecoderInputBuffer	isEncrypted()Z
+exoplayer	2	com.google.android.exoplayer2.extractor.mp4	FragmentedMp4Extractor	encryption
+exoplayer	2	com.google.android.exoplayer2.extractor.mp4	TrackFragment	fillEncryptionData(Lcom/google/android/exoplayer2/extractor/ExtractorInput;)V
+exoplayer	2	com.google.android.exoplayer2.extractor.mp4	TrackEncryptionBox	<init>(ZLjava/lang/String;I[BII[B)V
+exoplayer	2	com.google.android.exoplayer2.extractor.mp4	TrackFragment	sampleHasSubsampleEncryptionTable(I)Z
+exoplayer	2	com.google.android.exoplayer2.upstream.cache	CachedContentIndex	getCipher()Ljavax/crypto/Cipher;
+exoplayer	2	com.google.android.exoplayer2.source.hls	HlsChunkSource	clearEncryptionData()V
+exoplayer	2	com.google.android.exoplayer2.source	SampleQueue	readEncryptionData(Lcom/google/android/exoplayer2/decoder/DecoderInputBuffer;Lcom/google/android/exoplayer2/source/SampleMetadataQueue$SampleExtrasHolder;)V
+exoplayer	2	com.google.android.exoplayer2.source.hls	HlsChunkSource	newEncryptionKeyChunk(Landroid/net/Uri;Ljava/lang/String;IILjava/lang/Object;)Lcom/google/android/exoplayer2/source/hls/HlsChunkSource$EncryptionKeyChunk;
+exoplayer	2	com.google.android.exoplayer2.source.hls	HlsChunkSource$EncryptionKeyChunk	getResult()[B
+greendao	1	org.greenrobot.greendao.database	DatabaseOpenHelper$EncryptedHelper	
+vsapp	0	com.microsoft.appcenter.utils.crypto		
+signal	0	org.thoughtcrime.securesms		
+realm	2	io.realm	RealmConfiguration	getEncryptionKey()[B
+realm	2	io.realm	BaseRealm	writeEncryptedCopyTo(Ljava/io/File;[B)V
+zip4j	0	net.lingala.zip4j.crypto		
+mp4parser	0	mp4parser.muxer.tracks.encryption		
+mp4parser	1	mp4parser	EncryptionBox	
+kobjects	0	org.kobjects.crypt		
+apachecc	0	org.apache.commons.codec.digest		
+lgexin	1	com.igexin.push.util	EncryptUtils	
+itext	0	com.itextpdf.text.pdf.crypto		
+itext	1	com.itextpdf.text.pdf	PdfEncryption	
+itext	1	com.itextpdf.text.pdf	PdfEncryptor	
+netidt	2	net.idt.um.android.api.com.config	AppKeyResponsesLong	decryptLongs(JJ)Ljava/lang/Long;
+netidt	2	net.idt.um.android.api.com.config	TestAppKeyResponses	decrypt(Ljava/lang/String;)Ljava/lang/String;
+tencentop	2	com.tencent.open.utils	Util	encrypt(Ljava/lang/String;)Ljava/lang/String;
+tencentop	2	com.tencent.utils	Util	encrypt(Ljava/lang/String;)Ljava/lang/String;
+tencentcloud	0	com.tencent.android.tpush.encrypt		
+alipay	0	com.alipay.sdk.encrypt		
+baidu	2	com.baidu.location	Jni	coorEncrypt(DDLjava/lang/String;)[D
+cutie	2	com.cutie.merge.garden	StringFog	decrypt(Ljava/lang/String;)Ljava/lang/String;
+androidxsec	1	androidx.security.crypto	MasterKey	
+androidxsec	1	androidx.security.crypto	EncryptedFile	
+javaxcrypto	1	javax.crypto	KeyGenerator	
+javaxcrypto	1	javax.crypto	Cipher	
+javasec	1	java.security	PrivateKey	
+javasec	1	java.security	Signature	
+javasec	1	java.security	Publickey	
+javasec	1	java.security	KeyPair	
+javasec	1	java.security	MessageDigest	
+javasec	1	java.security	SecureRandom	
+javaxcrypto	1	javax.crypto	Mac	

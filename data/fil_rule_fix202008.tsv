@@ -1,0 +1,104 @@
+0	0	org.spongycastle
+0	0	org.bouncycastle
+0	0	javax.net.ssl
+0	0	java.security
+0	0	javax.crypto
+0	1	java.lang
+0	1	android.support.design.widget		
+0	1	android.support.v4
+0	1	android.support.v7
+0	1	android.widget		
+0	1	com.fasterxml.jackson.databind	DeserializationContext	
+0	1	org.aspectj.runtime.reflect
+0	1	org.mp4parser.aspectj.runtime.reflect	Factory
+0	1	com.everyplay.external.aspectj.runtime.reflect	Factory
+0	1	android.app
+0	1	org.jsoup.nodes
+0	1	android.os
+0	1	android.view
+0	1	android.text
+0	1	android.util
+0	0	net.sqlcipher
+0	1	com.google.android.gms.internal
+0	0	com.amazonaws.services.s3.internal.crypto
+0	0	com.amazonaws.services.kms
+0	0	org.thoughtcrime.securesms
+0	0	com.facebook.crypto
+0	0	com.facebook.cipher
+0	0	org.conscrypt
+0	1	java.io	FileInputStream
+0	0	com.nimbusds.jose
+0	0	com.google.android.exoplayer2.upstream.crypto
+0	1	com.google.android.exoplayer2.extractor
+0	0	com.tencent.android.tpush.encrypt
+0	0	com.alipay.sdk.encrypt
+0	0	com.microsoft.appcenter.utils.crypto
+0	0	org.kobjects.crypt
+0	0	org.apache.commons.codec.digest
+0	0	com.itextpdf.text.pdf	PdfEncryption
+1	1	android.graphics	BitmapFactory	
+1	0	android.content.pm	Signature
+1	0	com.squareup.okhttp	CipherSuite
+1	0	com.google.android.gms.common	GoogleSignatureVerifier
+1	0	okhttp3	CipherSuite
+1	0	okhttp3	Handshake
+1	0	okhttp3	ConnectionSpec
+1	0	hardware.fingerprint	FingerprintManager$CryptoObject
+1	0	hardware.fingerprint	FingerprintManagerCompatApi23$CryptoObject
+1	0	hardware.fingerprint	FingerprintManagerCompat$CryptoObject
+1	0	thrid.okhttp	CipherSuite
+1	0	io.grpc.okhttp.internal	CipherSuite
+1	0	org.apache.http.impl.auth	NTLMEngineImpl$CipherGen
+1	0	io.grpc.okhttp.internal	CipherSuite
+1	0	java.net	SecureCacheResponse
+1	0	com.amazonaws.services.s3.internal	RepeatableCipherInputStream
+1	0	com.amazonaws.services.s3.model	EncryptionMaterials
+1	0	com.amazonaws.services.s3	AmazonS3EncryptionClient
+1	0	org.greenrobot.greendao.database	DatabaseOpenHelper$EncryptedHelper
+1	0	cz.msebera.android.httpclient.impl.auth	NTLMEngineImpl$CipherGen
+1	0	android.security.keystore	KeyGenParameterSpec$Builder
+1	0	com.googlecode.mp4parser.boxes	AbstractSampleEncryptionBox
+1	0	com.googlecode.mp4parser.authoring.tracks	CencEncryptedTrack
+1	0	com.igexin.push.util	EncryptUtils
+2	1	io.reactivex.internal.functions	ObjectHelper	verifyPositive(ILjava/lang/String;)I
+2	1	androidx.appcompat.app	AppCompatViewInflater	verifyNotNull(Landroid/view/View;Ljava/lang/String;)V
+2	0	okio	ByteString	sha1()Lokio/ByteString;
+2	0	com.squareup.okhttp	ConnectionSpec	cipherSuites
+2	0	com.squareup.okhttp	Handshake	cipherSuite()Ljava/lang/String;
+2	0	io.grpc.okhttp.internal	ConnectionSpec$Builder	cipherSuites([Lio/grpc/okhttp/internal/CipherSuite;)Lio/grpc/okhttp/internal/ConnectionSpec$Builder;
+2	0	net.idt.um.android.api.com.config	AppKeyResponsesLong	decryptLongs(JJ)Ljava/lang/Long;
+2	0	net.idt.um.android.api.com.config	TestAppKeyResponses	decrypt(Ljava/lang/String;)Ljava/lang/String;
+2	0	com.tencent.open.utils	Util	encrypt(Ljava/lang/String;)Ljava/lang/String;
+2	0	com.tencent.utils	Util	encrypt(Ljava/lang/String;)Ljava/lang/String;
+2	0	net.lingala.zip4j.model	ZipParameters	isEncryptFiles()Z
+2	0	net.lingala.zip4j.model	ZipParameters	getEncryptionMethod()I
+2	0	net.lingala.zip4j.model	LocalFileHeader	isEncrypted()Z
+2	0	net.lingala.zip4j.model	LocalFileHeader	getEncryptionMethod()I
+2	0	net.lingala.zip4j.model	FileHeader	isEncrypted()Z
+2	0	net.lingala.zip4j.model	FileHeader	getEncryptionMethod()I
+2	0	com.amazonaws.services.s3.model	StaticEncryptionMaterialsProvider	<init>(Lcom/amazonaws/services/s3/model/EncryptionMaterials;)V
+2	0	com.google.android.exoplayer2.source.hls	HlsChunkSource	setEncryptionData(Landroid/net/Uri;Ljava/lang/String;[B)V
+2	0	com.google.android.exoplayer2.decoder	DecoderInputBuffer	isEncrypted()Z
+2	0	com.google.android.exoplayer2.extractor.mp4	FragmentedMp4Extractor	encryption
+2	0	com.google.android.exoplayer2.extractor.mp4	TrackFragment	fillEncryptionData(Lcom/google/android/exoplayer2/extractor/ExtractorInput;)V
+2	0	com.google.android.exoplayer2.extractor.mp4	TrackEncryptionBox	<init>(ZLjava/lang/String;I[BII[B)V
+2	0	com.google.android.exoplayer2.extractor.mp4	TrackFragment	sampleHasSubsampleEncryptionTable(I)Z
+2	0	com.google.android.exoplayer2.upstream.cache	CachedContentIndex	getCipher()Ljavax/crypto/Cipher;
+2	0	com.google.android.exoplayer2.source.hls	HlsChunkSource	clearEncryptionData()V
+2	0	com.google.android.exoplayer2.source	SampleQueue	readEncryptionData(Lcom/google/android/exoplayer2/decoder/DecoderInputBuffer;Lcom/google/android/exoplayer2/source/SampleMetadataQueue$SampleExtrasHolder;)V
+2	0	com.google.android.exoplayer2.source.hls	HlsChunkSource	newEncryptionKeyChunk(Landroid/net/Uri;Ljava/lang/String;IILjava/lang/Object;)Lcom/google/android/exoplayer2/source/hls/HlsChunkSource$EncryptionKeyChunk;
+2	0	com.google.android.exoplayer2.source.hls	HlsChunkSource$EncryptionKeyChunk	getResult()[B
+2	0	io.realm	RealmConfiguration	getEncryptionKey()[B
+2	0	io.realm	BaseRealm	writeEncryptedCopyTo(Ljava/io/File;[B)V
+2	0	com.mp4parser.iso23001.part7	CencSampleAuxiliaryDataFormat$Pair	encrypted()J
+2	0	com.amazonaws.services.s3.model.transform	AbstractSSEHandler	sseResult()Lcom/amazonaws/services/s3/internal/ServerSideEncryptionResult;
+2	0	okhttp3	DelegatingHttpsURLConnection	getCipherSuite()Ljava/lang/String;
+2	0	com.cutie.merge.garden	StringFog	decrypt(Ljava/lang/String;)Ljava/lang/String;
+2	1	com.google.android.exoplayer2.source.smoothstreaming	DefaultSsChunkSource	<init>(Lcom/google/android/exoplayer2/upstream/LoaderErrorThrower;Lcom/google/android/exoplayer2/source/smoothstreaming/manifest/SsManifest;ILcom/google/android/exoplayer2/trackselection/TrackSelection;Lcom/google/android/exoplayer2/upstream/DataSource;[Lcom/google/android/exoplayer2/extractor/mp4/TrackEncryptionBox;)V
+2	1	com.google.android.exoplayer2.source.smoothstreaming	SsChunkSource$Factory	createChunkSource(Lcom/google/android/exoplayer2/upstream/LoaderErrorThrower;Lcom/google/android/exoplayer2/source/smoothstreaming/manifest/SsManifest;ILcom/google/android/exoplayer2/trackselection/TrackSelection;[Lcom/google/android/exoplayer2/extractor/mp4/TrackEncryptionBox;)Lcom/google/android/exoplayer2/source/smoothstreaming/SsChunkSource;
+2	0	com.baidu.location	Jni	coorEncrypt(DDLjava/lang/String;)[D
+2	1	com.google.zxing.client.result	WifiParsedResult	getNetworkEncryption()Ljava/lang/String;
+2	0	org.apache.commons.httpclient.auth	NTLM	encrypt([B[B)[B
+2	1	com.inmobi.commons.uid	UID	getMapForEncryption(Ljava/util/Map;)Ljava/util/Map;
+2	1	com.itextpdf.text.pdf	PdfReader	<init>(Lcom/itextpdf/text/io/RandomAccessSource;Z[BLjava/security/cert/Certificate;Ljava/security/Key;Ljava/lang/String;Lcom/itextpdf/text/pdf/security/ExternalDecryptionProcess;Z)V
+2	1	com.google.android.exoplayer	SampleHolder	isEncrypted()Z
