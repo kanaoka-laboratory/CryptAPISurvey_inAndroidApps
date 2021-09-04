@@ -12,7 +12,12 @@ A single filter rule is separated by tabs. Each element is described in the foll
 
 | Element | Description |
 ----|----
-| 1st element | Type of rule. 0: package name, 1: package and class name, 2: package, class, method and argment type |
+| 1st element | Type of matching. **0**: package name, **1**: package and class name, **2**: package, class, method and argment type |
+| 2nd element | Type of rule. **0**:Cryptography-related functions, **1**: Non cryptography-related functions |
+| 3rd element | Package Name |
+| 4th element | Class Name (if available)|
+| 5th element | Method Name and Argument Types (if available) |
+
 
 
 ## fil_forApps.tsv
