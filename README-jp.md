@@ -50,8 +50,7 @@ Smaliファイルへの変換は、[apktool](https://ibotpeaches.github.io/Apkto
 |Library Name| Package Name| Description | URL |
 ----|----|----|----
 |Amazon AWS S3 Client|com.amazonaws.services |Client library for AWS S3, with several Crypto-related classes.|https://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/index.html?com/amazonaws/services/s3/AmazonS3Client.html|
-|okhttp|okhttp|HTTP library, where cryptography is used by TLS-related classes.
-Many applications have been found to include okhttp in their own application packages.|https://square.github.io/okhttp/|
+|okhttp|okhttp|HTTP library, where cryptography is used by TLS-related classes. Many applications have been found to include okhttp in their own application packages.|https://square.github.io/okhttp/|
 |AWS Key Management Service (AWS KMS)|com.amazonaws.services.kms|A library for AWS key management. Allows key management and encryption.|https://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/index.html?com/amazonaws/services/kms/package-summary.html|
 |ExoPlayer|com.google.android.exoplayer2|Third-party audio and video libraries for Android. It has cryptography-related classes.|https://developer.android.com/guide/topics/media/exoplayer|
 |Apache HTTP Client|org.apache.http.auth, org.apache.hc.client5.http.auth|Apache's HTTP client library, with NTRM-related methods for invoking cryptography.|https://hc.apache.org/|
